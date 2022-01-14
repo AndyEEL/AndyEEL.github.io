@@ -9,7 +9,6 @@
   <style type="text/css">
     p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
     p.p4 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
     li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
     li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9}
     span.s1 {font-kerning: none}
@@ -32,8 +31,7 @@
 <p class="p1"><span class="s1">{% include github.html %}<span class="Apple-converted-space"> </span></span></p>
 <p class="p4"><span class="s1">{{ site.description }}</span></p>
 <p class="p1"><span class="s1">{% include dot.html %}<span class="Apple-converted-space"> </span></span></p>
-<p class="p1"><span class="s1">{% include {{ site.social_link | default: "twitter" }}.html %}</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{% include {{ site.social_link | default: "twitter" }}.html %}<span class="Apple-converted-space"> </span></span></p>
 <p class="p1"><span class="s1">{% for post in site.posts %} {% include post_block.html %} {% endfor %}<span class="Apple-converted-space"> </span></span></p>
 <p class="p1"><span class="s1">{% include footer.html %}<span class="Apple-converted-space"> </span></span></p>
 </body>

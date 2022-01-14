@@ -1,65 +1,34 @@
-# Site
-name: 'Artisan'
-description: 'Whatever can provide insight into humans can be art by whom is an Artisan.'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-baseurl: 'https://andyeel.github.io/'
-disqus: 'demowebsite'
-email: 'ehdrjs0720@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole site, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-include: ["_pages"]
-permalink: /:title/
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# Plugins
-plugins: 
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-seo-tag
-  
-authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+title: Artisan
+description: whatever can provide an insight to human could be an art.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://andyeel.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+github_repo: AndyEEL.github.io # the GitHub repo name for your project
+github_username: AndyEEL
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
- 
-# Defaults
-defaults:
+# Optional social link, you can choose from the following options:
+# twitter (default), instagram, medium, or dribbble
+social_link: twitter
+social_username: Andy_july_happy
 
-  # all posts
-  - scope:
-      path: "_posts"
-    values:
-      layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
-      
-  # all pages
-  - scope:
-      path: "_pages"
-    values:
-      layout: page
-      
-# Syntax
+# Set theme color here
+# Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
+theme_color: magenta
+
+# Build settings
 markdown: kramdown
-highlighter: rouge
-
-# Paginate
-paginate: 10
-
-
-
-# Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]

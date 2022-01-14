@@ -1,38 +1,69 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    p.p4 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9}
-    span.s1 {font-kerning: none}
-    span.s2 {-webkit-text-stroke: 0px #000000}
-    span.s3 {text-decoration: underline ; font-kerning: none; color: #0000e9}
-    span.s4 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
-    ul.ul1 {list-style-type: disc}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">{% include head.html %}</span></p>
-<ul class="ul1">
-  <li class="li1"><span class="s2"></span><span class="s1">{% for my_page in site.pages %} {% if my_page.title %}</span></li>
-  <li class="li2"><span class="s2"><a href="file:///Users/idong-geon/Documents/AndyEEL.github.io/_layouts/%7B%7B%20my_page.url%20%7C%20prepend:%20site.baseurl%20%7D%7D"><span class="s3">{{ my_page.title }}</span></a></span><span class="s4"><span class="Apple-converted-space"> </span></span></li>
-  <li class="li1"><span class="s2"></span><span class="s1">{% endif %} {% endfor %}<span class="Apple-converted-space"> </span></span></li>
-</ul>
-<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>{{ site.title }}</b></span></h1>
-<p class="p1"><span class="s1">{% include dot-accent.html %}<span class="Apple-converted-space"> </span></span></p>
-<p class="p1"><span class="s1">{% include dot-accent.html %}<span class="Apple-converted-space"> </span></span></p>
-<p class="p1"><span class="s1">{% include github.html %}<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s1">{{ site.description }}</span></p>
-<p class="p1"><span class="s1">{% include dot.html %}<span class="Apple-converted-space"> </span></span></p>
-<p class="p1"><span class="s1">{% include {{ site.social_link | default: "twitter" }}.html %}<span class="Apple-converted-space"> </span></span></p>
-<p class="p1"><span class="s1">{% for post in site.posts %} {% include post_block.html %} {% endfor %}<span class="Apple-converted-space"> </span></span></p>
-<p class="p1"><span class="s1">{% include footer.html %}<span class="Apple-converted-space"> </span></span></p>
-</body>
+
+  {% include head.html %}
+
+  <body>
+
+    <div>
+
+      <header class="header-background">
+
+        <div class="clearfix border-bottom-thick header-border">
+          <ul class="list-reset right py-1 header-text font-smoothing">
+            {% for my_page in site.pages %}
+              {% if my_page.title %}
+              <li class="inline-block">
+                <a class="align-middle link-primary header-link mr-2" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+              </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="container mx-auto px-2 mb-2 clearfix header-text">
+          <h1 class="h0 inline-block col-9 sm-width-full py-4 mt-3 header-title">{{ site.title }}</h1>
+
+          <div class="clearfix mb-4 py-1">
+            <div class="col-4 sm-width-full left border-top-thin">
+              <div class="table">
+                <div class="inline-block mt-3 mr-1">
+                  {% include dot-accent.html %}
+                </div>
+                <div class="inline-block mt-3 mr-1">
+                  {% include dot-accent.html %}
+                </div>
+                <div class="inline-block mt-3">
+                  {% include github.html %}
+                </div>
+              </div>
+              <!-- Set site description in config.yml -->
+              <p class="h4 lh-condensed font-smoothing mt-2 py-1">{{ site.description }}</p>
+            </div>
+
+            <div class="col-4 sm-width-full left border-top-thin mt-3 mt-lg-0 ml-lg-4 table">
+                <div class="inline-block mt-3 mr-1">
+                  {% include dot.html %}
+                </div>
+                <div class="inline-block mt-3">
+                  {% include {{ site.social_link | default: "twitter" }}.html %}
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </header>
+
+      <div class="container mx-auto px-2 py-4">
+        {% for post in site.posts %}
+          {% include post_block.html %}
+        {% endfor %}
+      </div>
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
 </html>

@@ -19,7 +19,7 @@ Artisan(아르띠장)의 정신을 닮아
 
 
 ## Others
-@: ehdrjs0720@gmail.com
+ehdrjs0720@gmail.com
 
 
 

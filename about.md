@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![profilePicture](/assets/images/pfp.jpg){: width="100%" height="100%"0}{: .center}
+![profilePicture](/assets/images/pfp.jpg){: width="50%" height="50%"0}{: .center}
 
 안녕하세요. 
 경영학과와 수학과를 복수전공 하였습니다.

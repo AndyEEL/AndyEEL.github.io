@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Artisan
 description: whatever inspiring to human <br>could be an art.
-description2: 인간에 대한 통찰을 제공하는 무엇이든 예술이 될 수 있다.
+description2: 인간에 대한 통찰을 제공하는 무엇이든 <br>예술이 될 수 있다.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://andyeel.github.io/" # the base hostname & protocol for your site, e.g. http://example.com

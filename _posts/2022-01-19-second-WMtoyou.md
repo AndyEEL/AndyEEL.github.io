@@ -8,8 +8,6 @@ categories: dao
 
 ![neverSellYourSoul](/assets/images/neverSellYourSoul.jpg){: width="100%" height="100%"0}{: .center}
 
-<br>
-
 ## 악마에게 영혼을 팔지 말아라
 
 악마 메피스토에게 파우스트는 무엇을 얻기 위해 영혼을 팔았는가.
@@ -155,5 +153,7 @@ categories: dao
 
 그걸로 충분했다.
 
-## 盡人事待天命
+<br>
+
+### 盡人事待天命
 

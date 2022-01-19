@@ -6,13 +6,17 @@ date:   2022-01-19
 categories: dao
 ---
 
-# 악마에게 영혼을 팔지말아라
+# 악마에게 영혼을 팔지 말아라
 
 ![neverSellYourSoul](/assets/images/neverSellYourSoul.jpg){: width="100%" height="100%"0}{: .center}
 
 악마 메피스토에게 파우스트는 무엇을 얻기 위해 영혼을 팔았는가.
 
 자신의 것이 아니면 순간일 뿐이며 동시에 깊은 깨달음을 주지 못한다.
+
+<br>
+<br>
+<br>
 
 ### 불만족한 것에 대해 만족했다고 하지마라
 
@@ -86,7 +90,7 @@ categories: dao
 <br>
 <br>
 
-### 끊임없이 도전하고 한계에 있는 삶
+### 끊임없이 도전하고 한계를 초월하는 삶
 
 그렇다면, 무엇을 위해 도전해야 하는가?
 
@@ -118,7 +122,7 @@ categories: dao
 <br>
 <br>
 
-###  영혼 대화록
+### 영혼과의 대화록
 
 한계를 뛰어넘는 삶을 살기 위해서,한정된 시간 속에서 자신을 발견하고 자신을 극대화하면서 그렇게 내 한계를 뜷어가는 것이다.
 
@@ -132,18 +136,20 @@ categories: dao
 리스크를 감당해야, 성장이 있다.
 모든 것들에 패턴이 있다.
 
-![betterThanYesterday](/assets/images/betterThanYesterday.jpg){: width="60%" height="60%"0}{: .center}
+![betterThanYesterday](/assets/images/betterThanYesterday.jpg){: width="100%" height="100%"0}{: .center}
 
 >그렇게 하루하루 나아갔다.
 >
 >끊임없이 걸어 도착하였다.
 >
->남들이 불가능하다고 말하는 곳이었다.
+>남들이 불가능하다고 말하는 곳 이었다.
 >
->원래 가고자 했던 조청과 단꿀이 흐르는 땅은 아니었지만,
+>원래 가고자 했던 조청과 단꿀이 흐르는 땅은 
+>아니었지만,
 >
 >태풍과 파도를 피할 수 있는 충분히 마른 땅이었다.
+>
 >그걸로 충분했다.
 
-**盡人事待天命**
+## 盡人事待天命
 

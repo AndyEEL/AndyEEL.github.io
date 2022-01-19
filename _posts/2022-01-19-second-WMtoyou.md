@@ -1,8 +1,9 @@
 ---
 layout: post
 headtitle: "Never Sell Your Soul (to a devil)"
-title: "Never <br>Sell Your Soul <br>(to a devil)"
+title: "Never <br>Sell Your Soul (to a devil)"
 date:   2022-01-19
+categories: dao
 ---
 
 # 악마에게 영혼을 팔지말아라

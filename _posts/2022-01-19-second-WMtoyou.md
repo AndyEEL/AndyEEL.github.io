@@ -3,7 +3,7 @@ layout: post
 headtitle: "Never Sell Your Soul (to a devil)"
 title: "Never <br>Sell Your Soul (to a devil)"
 date:   2022-01-19
-categories: dao
+categories: self
 ---
 
 ![neverSellYourSoul](/assets/images/neverSellYourSoul.jpg){: width="100%" height="100%"0}{: .center}

@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Artisan
-description: whatever inspiring to human <br>could be an art.
-description2: 영감을 주는 무엇이든 <br>예술이 될 수 있다.
+description: Whatever inspiring to human <br>Could be an art.
+description2: Engage with value
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://andyeel.github.io/" # the base hostname & protocol for your site, e.g. http://example.com

@@ -8,7 +8,7 @@ permalink: /about/
 
 경영학과와 수학과를 복수전공 하였습니다.
 
-![Rulewall.jpg](/assets/images/pfp.jpg){: width="50%" height="50%"0}{: .center}
+![Rulewall](/assets/images/Rulewall.jpg){: width="50%" height="50%"0}{: .center}
 
 요새 드는 생각...
 

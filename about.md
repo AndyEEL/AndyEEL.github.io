@@ -13,9 +13,13 @@ permalink: /about/
 요새 드는 생각...
 
 Thanks God! : 삶 자체에 감사하라
+
 Engage with value: 가치에 집중하라
+
 Spectrum: 세상의 다양성 이해해라
+
 손 제곱법칙: 병법을 익혀 적용해라
+
 
 
 
